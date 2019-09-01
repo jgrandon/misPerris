@@ -56,19 +56,39 @@ padding: 16px;
 .page-footer{
   padding: 70px 0;
   color: white;
-font-size: 20px;
-text-align: center;
+  font-size: 20px;
+  text-align: center;
   background-color:#607D8B;
 }
 
 .page-footer a{
-
   color: white;
-
-
 }
 
 .bg-servicios {
   color : white !important;
   background-color :  #0097A7;
+  width : 100%
+}
+
+.jumbo {
+  background-image : url("../img/mascotas.jpg");
+  background-size: cover;
+}
+
+.jumbo-txt {
+  color : #665956 !important;
+  text-shadow : -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white !important;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.round {
+  border-radius : 200px !important;
 }

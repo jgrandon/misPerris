@@ -25,7 +25,7 @@
           <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Quienes Somos</a>
+          <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
         </li>
         <li class="nav-item active">
           <a class="nav-link" href="servicios.html">Servicios</a>
@@ -37,6 +37,7 @@
     </div>
   </nav>
   <div class="container">
+    <br>
     <div class="row">
       <div class="col-lg-12 col-md-12 col-sm-12">
         <h3>Nuestra Ubicación</h3>
@@ -45,35 +46,47 @@
     </div>
   </div>
   <div class="container">
-    <div class="embed-responsive embed-responsive-16by9"><iframe frameborder=”0″ class="embed-responsive-item"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4685147857763!2d-70.72064638503754!3d-33.51520248075546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dca738b6e2cd%3A0x61403e0844e0201f!2sDuoc%20UC%20Sede%20Plaza%20Oeste!5e0!3m2!1ses!2scl!4v1567197259217!5m2!1ses!2scl"
-        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe> </div>
+    <div class="row">
+      <div class="col-lg-5">
+        <br>
+        <br>
+        <h3>Contáctanos</h3>
+        <form>
+          <div class="form-group row">
+            <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
+            <div class="col-lg-10 col-md-6 col-xs-12 ">
+              <input type="nombre" class="form-control" id="nombre" placeholder="Nombre y Apellido" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputTelefono" class="col-sm-2 col-form-label">Teléfono</label>
+            <div class="col-lg-10 col-md-6 col-xs-12 ">
+              <input type="telefono" class="form-control" id="telefono" placeholder="Teléfono o Celular" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="inputMensaje" class="col-sm-2 col-form-label">Mensaje</label>
+            <div class="col-lg-10 col-md-6 col-xs-12 ">
+              <textarea name="mensaje" rows="3"  class="form-control" placeholder="Escribe tus comentarios" required></textarea>
+
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info">
+            <ELEMENT>Enviar Mensaje</ELEMENT>
+          </button>
+        </form>
+          <br>
+          <br>
+      </div>
+      <div class="col-lg-7">
+        <div class="embed-responsive embed-responsive-16by9"><iframe frameborder=”0″ class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.4685147857763!2d-70.72064638503754!3d-33.51520248075546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662dca738b6e2cd%3A0x61403e0844e0201f!2sDuoc%20UC%20Sede%20Plaza%20Oeste!5e0!3m2!1ses!2scl!4v1567197259217!5m2!1ses!2scl"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
     <br>
-    <h3>Contáctanos</h3>
-    <form>
-      <div class="form-group row">
-        <label for="inputNombre" class="col-sm-2 col-form-label">Nombre</label>
-        <div class="col-lg-4 col-md-6 col-xs-12 ">
-          <input type="nombre" class="form-control" id="nombre" placeholder="Nombre y Apellido">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputTelefono" class="col-sm-2 col-form-label">Teléfono</label>
-        <div class="col-lg-4 col-md-6 col-xs-12 ">
-          <input type="telefono" class="form-control" id="telefono" placeholder="Teléfono o Celular">
-        </div>
-      </div>
-      <div class="form-group row">
-        <label for="inputMensaje" class="col-sm-2 col-form-label">Mensaje</label>
-        <div class="col-lg-4 col-md-6 col-xs-12 ">
-          <input type="mensaje" class="form-control" id="mensaje" placeholder="Escribe tus comentarios">
-        </div>
-      </div>
-      <button type="button" class="btn btn-info">
-        <ELEMENT>Enviar Mensaje</ELEMENT>
-      </button>
-      <br>
-      <br>
+
   </div>
   <!-- Footer -->
   <footer class="page-footer">
