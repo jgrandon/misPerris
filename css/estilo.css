@@ -22,9 +22,12 @@ padding: 16px;
 .carousel-item .item-1 {
   height: 500px;
 
+
   background-image: url("../image/item1.jpg");
+
   background-size: cover;
   background-position: 0% 45%;
+
 }
 .carousel-item .item-2 {
   height: 500px;
@@ -39,6 +42,10 @@ padding: 16px;
   background-image: url("../image/item3.jpg");
   background-size: cover;
   background-position: 0% 35%;
+}
+
+.fondo-transparente{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rescate-estilos h1{
@@ -91,4 +98,28 @@ padding: 16px;
 
 .round {
   border-radius : 200px !important;
+}
+
+.infoCarrusel {
+  height: 100%;
+  display: grid;
+  vertical-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.infoCarrusel h1 {
+  color: #fff;
+  font-size: 60px;
+}
+.infoCarrusel h2 {
+  color: #fff;
+  position: relative;
+  top: -74px;
+  text-align: center;
+}
+.infoCarrusel span {
+  color: #fff;
+  position: relative;
+  top: -145px;
+  text-align: center;
 }
