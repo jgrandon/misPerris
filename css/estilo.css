@@ -126,3 +126,7 @@ padding: 16px;
   top: -145px;
   text-align: center;
 }
+
+.hover-pointer:hover {
+  cursor : pointer ;
+}
