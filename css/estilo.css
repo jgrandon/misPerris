@@ -21,7 +21,12 @@ padding: 16px;
 	background: #0097A7;
 	border-color: #212121;
 }
-
+.quienes-somos{
+  height: 500px;
+  background-image: url("../img/mascotas.jpg");
+  background-size: cover;
+  background-position: 0% 70%;
+}
 .carousel-item .item-1 {
   height: 500px;
 
@@ -60,7 +65,7 @@ padding: 16px;
 }
 
 .rescate-estilos p{
-  color: #BDBDBD;
+  color: #847c7c;
 }
 
 .page-footer{
@@ -125,4 +130,21 @@ padding: 16px;
   position: relative;
   top: -145px;
   text-align: center;
+}
+
+.fullwidth{
+  width: 100%;
+}
+
+.aboutus-con p{
+  text-align: justify;
+  color: #847c7c;
+}
+
+.about-img{
+  padding-top: 70px;
+}
+
+.card img{
+  height: 350px;
 }
