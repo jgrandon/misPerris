@@ -132,7 +132,6 @@ padding: 16px;
   text-align: center;
 }
 
-<<<<<<< HEAD
 .fullwidth{
   width: 100%;
 }
@@ -148,8 +147,4 @@ padding: 16px;
 
 .card img{
   height: 350px;
-=======
-.hover-pointer:hover {
-  cursor : pointer ;
->>>>>>> 28aaa5227b17dce22ced57467711df984e341abf
 }
