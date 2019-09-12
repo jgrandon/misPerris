@@ -34,5 +34,7 @@ function cambiarVista(vista){
     $(".div-contenedor").hide();
     $(".div-contenedor").html(htmlRespuesta);
     $(".div-contenedor").show();
+  }).fail(function(errorCode){
+    alert("Error en la comunicacion " );
   });
 }
