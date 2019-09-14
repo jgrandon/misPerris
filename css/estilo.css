@@ -52,6 +52,29 @@ padding: 16px;
   background-position: 0% 35%;
 }
 
+.carousel-item .img-mision {
+  height: 500px;
+
+
+  background-image: url("../img/carousel2.jpg");
+
+  background-size: cover;
+  background-position: 0% 45%;
+
+}
+
+
+.carousel-item .img-vision {
+  height: 500px;
+
+
+  background-image: url("../img/carousel1.jpg");
+
+  background-size: cover;
+  background-position: 0% 45%;
+
+}
+
 .fondo-transparente{
   background-color: rgba(0, 0, 0, 0.5);
 }

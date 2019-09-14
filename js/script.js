@@ -21,6 +21,7 @@ $(document).ready(function(){
 
 
 
+
 });
 
 
@@ -34,6 +35,28 @@ function cambiarVista(vista){
     $(".div-contenedor").hide();
     $(".div-contenedor").html(htmlRespuesta);
     $(".div-contenedor").show();
+
+    $(".btn-contacto").click(function(){
+      console.log("click!!");
+      $("a[data-vista=\"contacto\"]").click();
+    });
+
+
+      $("#formulario").unbind().submit(function(e){
+        e.preventDefault();
+        alert('Datos Registrados. Nos comunicaremos contigo en breve.');
+        $("a[data-vista=\"home\"]").click();
+        // $.ajax({
+        //   url : "php/mail.php"
+        //   , type : "POST"
+        // }).done(function(){
+        //   alert('ok');
+        // }).fail(function(){
+        //   alert('fail');
+        // });
+      });
+
+
   }).fail(function(errorCode){
     alert("Error en la comunicacion " );
   });
